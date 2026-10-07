@@ -1,0 +1,6 @@
+interface:
+  display_name: "Directed Memory Bank（导向式记忆库）"
+  short_description: "分层可移植的 Agent 长期记忆库，写入有门控、读取有优先级"
+  default_prompt: "使用 $directed-memory-bank 为当前项目建立分层记忆库，并说明哪些内容可以直接写入、哪些必须先进候选区。"
+policy:
+  allow_implicit_invocation: true

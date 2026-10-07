@@ -1,0 +1,36 @@
+{
+  "name": "directed-memory-bank",
+  "version": "0.1.0",
+  "description": "Portable, governed, layered long-term memory bank for AI coding agents.",
+  "author": {
+    "name": "Xxxnickname",
+    "url": "https://github.com/Xxxnickname"
+  },
+  "homepage": "https://github.com/Xxxnickname/directed-memory-bank",
+  "repository": "https://github.com/Xxxnickname/directed-memory-bank",
+  "license": "MIT",
+  "keywords": [
+    "memory",
+    "agent",
+    "long-term-memory",
+    "portable",
+    "markdown",
+    "retrieval"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Directed Memory Bank",
+    "shortDescription": "分层、受控、可移植的 Agent 长期记忆库",
+    "longDescription": "用 L0 原始证据、L1 原子事实、L2 场景/项目/技能、L3 用户画像四层结构承装长期记忆；写入走候选/纠错/复核三重门控，读取按规则优先顺序加载，并附带本地向量加 BM25 混合检索。",
+    "developerName": "Xxxnickname",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use directed-memory-bank to set up a layered, governed memory bank for this project."
+    ],
+    "brandColor": "#3B82F6"
+  }
+}
